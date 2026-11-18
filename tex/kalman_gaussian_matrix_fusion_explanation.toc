@@ -1,0 +1,32 @@
+\contentsline {section}{引言与阅读导图}{3}{section*.2}%
+\contentsline {section}{\numberline {1}智能体的运动学模型}{6}{section.1}%
+\contentsline {section}{\numberline {2}位置的高斯概率模型与基础高斯融合}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}为什么用高斯分布表示位置}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}两个高斯分布怎样融合}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}从复习用直觉表述到严格数学定义}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}全部相关高斯分布及其矩阵表示}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}状态先验分布}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}理想测量预测分布}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}测量噪声分布}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}创新分布}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}状态--测量交叉协方差}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}创新协方差与融合后的后验协方差：简要区分}{11}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Kalman 增益如何把测量残差变成状态修正量}{11}{section.4}%
+\contentsline {section}{\numberline {5}一个可手算的 $[x,v]$ 示例}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}把真实状态和测量噪声暂时揭开进行核对}{13}{subsection.5.1}%
+\contentsline {section}{\numberline {6}从后验误差一步步推到 Joseph 协方差}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}把具体矩阵逐项代入 Joseph 公式}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Joseph 原式与简化式为什么看起来不同}{18}{subsection.6.2}%
+\contentsline {section}{\numberline {7}从“两个高斯相乘”看同一件事}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}创新方差与融合分布的融合方差}{22}{subsection.7.1}%
+\contentsline {section}{\numberline {8}预测阶段与过程噪声 $Q$}{24}{section.8}%
+\contentsline {section}{\numberline {9}一次完整递推的因果顺序}{25}{section.9}%
+\contentsline {section}{\numberline {10}协方差元素的来源、物理含义与 $p_{xy}=0$ 对照实验}{29}{section.10}%
+\contentsline {subsection}{\numberline {10.1}从标准差清单到联合高斯协方差矩阵}{29}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}为什么协方差矩阵必然对称}{30}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}状态更新方程怎样产生 $p_{xv}$、$p_{yv}$ 和 $p_{xy}$}{30}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}三个交叉协方差怎样进入 Kalman 增益}{31}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}航向角和角速度误差的边界}{32}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}强制 $p_{xy}=0$ 的数值对照实验}{33}{subsection.10.6}%
+\contentsline {section}{\numberline {11}与当前 MATLAB 实现的对应关系}{35}{section.11}%
+\contentsline {subsection}{\numberline {11.1}递推过程与编队跟踪结果的综合可视化}{36}{subsection.11.1}%
