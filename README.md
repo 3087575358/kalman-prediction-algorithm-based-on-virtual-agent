@@ -4,6 +4,14 @@
 
 滤波器只递推位置和纵向速度 `[x;y;v]`。航向角 `theta` 与角速度 `w` 直接传递，不进入当前 Kalman 状态。编队控制默认使用当前后验领导者；`0.1 s` 前视领导者主要用于观察，不参与当前融合过程。
 
+<p align="center">
+  <img
+    src="./kalman-test-pxy-zero-fusion-combined-26-11-18-155108.gif"
+    alt="Kalman 预测编队与概率融合动画"
+    width="100%"
+  />
+</p>
+
 ## 建议运行顺序
 
 1. 直接观察完整算法与动画：运行 `run_kalman_prediction_virtual_agent_demo.m`。
